@@ -1,0 +1,18 @@
+﻿.sprite {
+    width: 300px;
+    height: 300px;
+    background: url('face.png') 0 0 no-repeat;
+    animation: play 2s steps(10) infinite;
+    justify-content:center;
+    margin:auto;
+}
+
+@keyframes play {
+    0% {
+        background: position 0px;
+    }
+
+    100% {
+        background-position: -3000px;
+    }
+}
